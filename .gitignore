@@ -1,0 +1,11 @@
+# Only the synthetic dataset is published; never commit other data or models
+*.csv
+!synthetic_load_profile.csv
+*.xlsx
+*.parquet
+*.npz
+*.joblib
+
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
